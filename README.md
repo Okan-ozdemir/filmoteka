@@ -13,10 +13,12 @@ A comprehensive movie discovery application using The Movie Database (TMDB) API.
 
 ## Tech Stack
 
-- React 19
-- Vite
-- Tailwind CSS
-- React Router
+- [React](https://reactjs.org/) 19.2.0
+- [React DOM](https://reactjs.org/docs/react-dom.html) 19.2.0
+- [React Router DOM](https://reactrouter.com/) 7.9.6
+- [Lucide React](https://lucide.dev/) 0.555.0
+- [Vite](https://vitejs.dev/) 6.2.0
+- [@vitejs/plugin-react](https://vitejs.dev/guide/features.html#jsx) 5.0.0
 - TMDB API
 
 ## Run Locally
