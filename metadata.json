@@ -1,0 +1,5 @@
+{
+  "name": "Filmoteka React",
+  "description": "A comprehensive movie discovery application using The Movie Database (TMDB) API. Features include trending movies, catalog search, personal library management, and dark/light mode themes.",
+  "requestFramePermissions": []
+}
