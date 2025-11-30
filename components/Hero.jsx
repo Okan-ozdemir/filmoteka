@@ -56,7 +56,7 @@ const Hero = ({ movie, loading }) => {
          <img
             src={movie.backdrop_path ? `${IMAGE_ORIGINAL_URL}${movie.backdrop_path}` : 'https://picsum.photos/1920/1080?blur=5'}
             alt={movie.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
             onError={(e) => { e.target.src = 'https://picsum.photos/1920/1080?blur=5'; }}
          />
          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent"></div>
