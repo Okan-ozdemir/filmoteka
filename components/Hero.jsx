@@ -54,7 +54,7 @@ const Hero = ({ movie, loading }) => {
       {/* Background Image */}
       <div className="absolute inset-0">
          <img
-            src={`${IMAGE_ORIGINAL_URL}${movie.backdrop_path}`}
+            src={movie.backdrop_path ? `${IMAGE_ORIGINAL_URL}${movie.backdrop_path}` : 'https://picsum.photos/1920/1080?blur=5'}
             alt={movie.title}
             className="w-full h-full object-cover"
          />
