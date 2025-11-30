@@ -11,6 +11,10 @@ A comprehensive movie discovery application using The Movie Database (TMDB) API.
 - Save movies to personal library
 - Dark/Light theme support
 
+## Live Demo
+
+Check out the live version: [Filmoteka](https://filmoteka-iota-liard.vercel.app/)
+
 ## Tech Stack
 
 - [React](https://reactjs.org/) 19.2.0
